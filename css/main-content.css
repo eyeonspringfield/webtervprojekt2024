@@ -1,0 +1,114 @@
+#title{
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#description{
+    text-align: center;
+}
+
+.header{
+    text-decoration: underline;
+}
+
+#kinalat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.termekbox{
+    flex-basis: 10%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 9px;
+    background-color: #eaeaea;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.usermade{
+    background-color: #d6ffd6;
+}
+
+.termekbox:hover{
+    transform: scale(1.04);
+    z-index: 1;
+}
+
+.termekbox img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox p{
+    padding-bottom: 10px;
+}
+
+.termekbox .price {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 7px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox a{
+    color: azure;
+    background-color: grey;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 10px 10px;
+    margin: 5px 70px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox a:hover{
+    background-color: darkgrey;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox a:active{
+    background-color: lightgrey;
+    color: white;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#hol{
+    padding-top: 20px;
+}
+
+#terkep{
+    position: relative;
+    text-align: center;
+}
+
+#map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgbox p {
+ padding-top: 20px;
+}
+
+#nyitvatartas {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    padding-top: 30px;
+    text-decoration: underline solid;
+}

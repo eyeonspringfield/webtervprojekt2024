@@ -1,0 +1,145 @@
+#cim{
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+#adminbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form-container{
+    flex: 1;
+    width: calc(50% - 20px);
+}
+
+.hirszoveg{
+    height: 670px !important;
+    resize: vertical;
+}
+
+#datumtorles{
+    align-self: flex-start;
+}
+
+#kep{
+    padding-bottom: 10px;
+}
+
+#adminleiras{
+    text-align: center;
+    color: red;
+    text-decoration: underline solid;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+#email{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    color: black;
+}
+
+.error{
+    color: red;
+}
+
+#kinalat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.termekbox{
+    flex: 1;
+    width: 300px;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #cccccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    align-content: center;
+}
+
+.termekbox:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.termekbox img{
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox p{
+    padding-bottom: 10px;
+}
+
+.termekbox .price {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 7px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox a{
+    color: azure;
+    background-color: grey;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 10px 10px;
+    margin: 5px 70px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox a:hover{
+    background-color: darkgrey;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox a:active{
+    background-color: lightgray;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.termek-button{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 10px 10px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.termek-button:hover{
+    background-color: darkgreen;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.termek-button:active{
+    background-color: #004b00;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+

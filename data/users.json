@@ -1,0 +1,49 @@
+{
+    "users": [
+        {
+        "username": "Admin",
+        "email": "admin@hasznaltautoszeged.hu",
+        "password": "$2y$10$NR.giBX\/jmvOI2Nln19D0OpK1sW2DFYcfbwmX.P.X27bRyHQC8qW2",
+        "vnev": "Admin",
+        "knev": "Felhaszn\u00e1l\u00f3",
+        "admin": true,
+        "imgpath": "img\/pfp\/default-avatar.png",
+        "carlikes": "",
+        "cardislikes": "",
+        "newslikes": "",
+        "newsdislikes": "",
+        "appointments": "",
+        "messages": ""
+        },
+        {
+            "username": "nagydavid",
+            "email": "nagy.david@gmail.com",
+            "password": "$2y$10$0DXtMzBEzoD6djPG.IwsvODYhIpeCVQ3Jsm2WTrdfXGL1hPflBKE6",
+            "vnev": "Nagy",
+            "knev": "D\u00e1vid",
+            "admin": false,
+            "imgpath": "img\/pfp\/default-avatar.png",
+            "carlikes": ":5",
+            "cardislikes": "",
+            "newslikes": ": 6 ",
+            "newsdislikes": "",
+            "appointments": "",
+            "messages": ":Felt\u00f6lt\u00e9sre ker\u00fclt a(z) Nissan Skyline 2002 aut\u00f3ja! \u00c9rtes\u00edteni fogj\u00fak j\u00f3v\u00e1hagy\u00e1si st\u00e1tusz\u00e1r\u00f3l!:J\u00f3v\u00e1hagyt\u00e1k a(z) Nissan Skyline 2002 aut\u00f3j\u00e1t!"
+        },
+        {
+            "username": "szmikee",
+            "email": "szonyi.miklos@gmail.com",
+            "password": "$2y$10$j55jm9QDaJCsfwIuwE2L9.hvIbsAlrGopxlan4\/MDaHDMSSUzXgDu",
+            "vnev": "Sz\u0151nyi",
+            "knev": "Mikl\u00f3s Guszt\u00e1v",
+            "admin": false,
+            "imgpath": "img\/pfp\/default-avatar.png",
+            "carlikes": ":1",
+            "cardislikes": "",
+            "newslikes": "",
+            "newsdislikes": "",
+            "appointments": "",
+            "messages": ""
+        }
+    ]
+}

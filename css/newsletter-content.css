@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+
+#newscontainer{
+    display: inline-block;
+    padding: 10px 10px 5px 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.contentnews{
+    position: relative;
+    padding: 10px 30px 50px 30px;
+    text-align: left;
+    margin: 15px 15%;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.likedislike{
+    display: inline-flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #cccccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.likedislike form{
+    margin: 3px;
+}
+
+form button{
+    background-color: #cccccc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.dislikeimg{
+    transform: scaleY(-1);
+}
+
+.liked{
+    background-color: darkgrey;
+}
+
+.liked:hover{
+    background-color: grey;
+}
+
+.liked:active{
+    background-color: darkslategrey;
+}
+
+form button:hover{
+    background-color: darkgrey;
+}
+
+form button:active{
+    background-color: grey;
+    color: black;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.likecount{
+    color: green;
+    font-style: oblique;
+}
+
+.dislikecount{
+    color:red;
+}

@@ -1,0 +1,140 @@
+#title{
+    padding-top: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#messagecontainer{
+    display: inline-block;
+    padding: 10px 10px 5px 5px;
+    margin-left: 4.5%;
+    margin-right: 5.5%;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+    width: 90%;
+    text-align: center;
+}
+
+.messagecontent{
+    position: relative;
+    height: 50%;
+    width: 68.5%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin: 15px 15%;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.delmessage{
+    height: 40%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 7px;
+    background-color: #eaeaea;
+}
+
+.profilcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.profbox {
+    margin: 30px auto;
+    width: 300px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+    line-height: 1.8;
+    background-color: white;
+    text-align: center;
+}
+
+#data {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#admintitle{
+    color: red;
+}
+
+input{
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 30px;
+    height: 25px;
+    width: 90%;
+}
+
+form{
+    margin-top: 10px;
+}
+
+form > label{
+    display: block;
+    margin-top: 30px;
+}
+
+.submiter{
+    width: 100%;
+    height: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 7px;
+    background-color: #eaeaea;
+}
+
+.submiter:hover{
+    background-color: lightgrey;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.submiter:active{
+    background-color: darkgrey;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 30px;
+    height: 25px;
+    width: 90%;
+}
+
+.idopont{
+    display: block;
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+body{
+    background: #eaeaea;
+}
+
+
+#profpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+

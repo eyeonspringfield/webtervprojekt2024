@@ -1,0 +1,220 @@
+#auto-nev{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.autobox{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.autobox img{
+    float: left;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.autobox ul{
+    display: block;
+    padding-bottom: 5px;
+    list-style-position: inside;
+}
+
+.usermade{
+    background-color: #d6ffd6 !important;
+}
+
+p:nth-of-type(1){
+    padding-bottom: 5px;
+}
+
+#price {
+    display: inline-block;
+    font-size: 1.4em;
+    padding: 7px 13px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#likedislike {
+    display: inline-flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #cccccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.liked{
+    background-color: darkgrey;
+}
+
+.liked:hover{
+    background-color: grey;
+}
+
+.liked:active{
+    background-color: darkslategrey;
+}
+
+#likedislike img{
+    border: none;
+    box-shadow: none;
+}
+
+#likedislike form{
+    margin: 3px;
+}
+
+form button{
+    background-color: #cccccc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.dislikeimg{
+    transform: scaleY(-1);
+}
+
+form button:hover{
+    background-color: darkgrey;
+}
+
+form button:active{
+    background-color: grey;
+    color: black;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#likecount{
+    color: green;
+    font-style: oblique;
+}
+
+#dislikecount{
+    color:red;
+}
+
+#idotext{
+    margin-top: 5px;
+}
+
+#idopont{
+    color: azure;
+    background-color: grey;
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#idopont:hover{
+    background-color: darkgrey;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#idopont:active{
+    background-color: lightgrey;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+#kinalat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.termekbox{
+    flex-basis: 10%;
+    min-width: 17%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 10px;
+    background-color: #eaeaea;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.termekbox:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.termekbox img{
+    width: 75%;
+    min-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox p{
+    padding-bottom: 10px;
+}
+
+.termekbox .price {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 7px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox a{
+    color: azure;
+    background-color: grey;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 10px 10px;
+    margin: 5px 70px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox a:hover{
+    background-color: darkgrey;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.termekbox a:active{
+    background-color: lightgray;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    clear: both;
+}
