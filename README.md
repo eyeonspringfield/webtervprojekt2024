@@ -24,3 +24,5 @@ Egyéb nem funkcionális követelmények amelyek megvalósultak:
 A projekt teljeskürűen megfelelt a gyakorlatvezetők követelményeinek, és a maximális pontszámot érte el az értékelés során.
 
 A projektet 2024 őszén töltöttem fel GitHub-ra, hogy egy helyen tárolhassam és követhessem az egyetemi tanulmányaim során elkészített projektjeimet.
+
+Mivel a projekt megvalósítása lezárúlt, így archíválásra került.
